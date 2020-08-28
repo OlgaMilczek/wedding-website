@@ -1,0 +1,128 @@
+body {
+    font-size: 80%;
+    font-family: 'Poppins', sans-serif;
+    color: #404040;
+    letter-spacing: 0.15em;	
+    background-color: #ffffff;
+    width: 100%;
+    margin: 0 auto;
+}	
+
+#content {
+    margin-top: 0px;
+    background-image: url("images/main_photo.jpg");
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-position: center center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.heading  {
+    background-color: #ffffff;
+    opacity: 0.8;
+}
+    
+ul {
+    padding: 5px;
+    margin: 5px auto 5px auto;
+    text-align: center;}
+
+li {
+    display: inline;
+    margin: 5px 5px;
+    padding: 5px;}
+
+h1 {
+    font-size: 300%;
+    text-align: center;
+    margin: auto auto;}
+    
+h2, h3 {
+    font-size: 48px;
+    font-family: 'Petit Formal Script', cursive;
+    text-align: center;
+    margin: 5px auto 5px auto;}
+
+.content {
+    margin: auto;
+    width: 61%;}
+
+.nav-bar {
+    color: #000000;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 6px 18px 5px 18px;}
+
+
+p.additional_info {
+    text-align: left;
+    padding: 5 px;}
+
+div.group {
+    margin: 10px;
+    padding-bottom: 20px;
+    width: 600px;}
+
+legend.invisible {
+    display: none;}
+        
+.title {
+    float: left;
+    text-align: left;
+    width: 200px;
+    padding-right: 10px;}
+
+
+.nav-bar:hover, .nav-bar.on {
+    color: #d7b9b9;}
+
+
+.on-photo {
+    margin-top: 30vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ffffff;
+    opacity: 0.8;
+    text-align: center;
+    margin: 20px auto 0px auto;
+    padding: 10px;
+}
+
+.plan {
+    text-align: center;
+    width: 600px;
+    height: 70vh;
+    margin: 10vh auto;
+    background-color: rgba(255,255,255,0.9);
+}
+
+.event {
+    padding-top:40px;
+    font-size: 16px;
+}
+
+.adress {
+    font-size: 14px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+iframe {
+    width: 450px;
+    height: 450px;
+    border: 0;
+}
